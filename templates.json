@@ -1,0 +1,73 @@
+{
+  "version": "1.0.0",
+  "templates": [
+    {
+      "id": "react-ts-vite",
+      "name": "React + TypeScript + Vite",
+      "description": "SPA moderna con React 18, TypeScript estricto, Vite, React Router v6, Auth JWT, Axios",
+      "path": "react-ts-vite",
+      "tags": ["react", "typescript", "ts", "tsx", "vite", "spa", "frontend"],
+      "language": "typescript",
+      "framework": "react",
+      "bundler": "vite",
+      "port": 5173,
+      "runCmd": "npm install && npm run dev",
+      "features": ["auth-jwt", "react-router-v6", "axios", "protected-routes", "context-api"],
+      "detect": {
+        "keywords": ["react", "typescript", "vite"],
+        "anyOf": ["react con typescript", "react ts", "react typescript", "react tsx"]
+      }
+    },
+    {
+      "id": "react-js-vite",
+      "name": "React + JavaScript + Vite",
+      "description": "SPA con React 18, JavaScript, Vite, React Router v6, Auth JWT",
+      "path": "react-js-vite",
+      "tags": ["react", "javascript", "js", "jsx", "vite", "spa", "frontend"],
+      "language": "javascript",
+      "framework": "react",
+      "bundler": "vite",
+      "port": 5173,
+      "runCmd": "npm install && npm run dev",
+      "features": ["auth-jwt", "react-router-v6", "axios", "protected-routes"],
+      "detect": {
+        "keywords": ["react", "javascript"],
+        "anyOf": ["react con javascript", "react js", "react jsx", "react sin typescript"]
+      }
+    },
+    {
+      "id": "dotnet-webapi",
+      "name": ".NET 8 WebAPI",
+      "description": "REST API con .NET 8, Auth JWT, EF Core, Swagger, CORS configurado",
+      "path": "dotnet-webapi",
+      "tags": ["dotnet", ".net", "csharp", "c#", "webapi", "api", "backend", "rest"],
+      "language": "csharp",
+      "framework": "dotnet",
+      "bundler": null,
+      "port": 5000,
+      "runCmd": "dotnet restore && dotnet run",
+      "features": ["auth-jwt", "swagger", "cors", "entity-framework", "bcrypt"],
+      "detect": {
+        "keywords": ["dotnet", ".net", "csharp", "c#"],
+        "anyOf": ["punto net", ".net", "dotnet", "c sharp", "csharp", "asp.net"]
+      }
+    },
+    {
+      "id": "express-node",
+      "name": "Express + Node.js",
+      "description": "REST API con Express, Auth JWT, Helmet, CORS, validaciones, estructura MVC",
+      "path": "express-node",
+      "tags": ["express", "node", "nodejs", "api", "backend", "javascript", "rest"],
+      "language": "javascript",
+      "framework": "express",
+      "bundler": null,
+      "port": 3001,
+      "runCmd": "npm install && npm run dev",
+      "features": ["auth-jwt", "helmet", "cors", "validators", "mvc-structure"],
+      "detect": {
+        "keywords": ["express", "node"],
+        "anyOf": ["express", "nodejs", "node.js", "api con node", "backend node"]
+      }
+    }
+  ]
+}
