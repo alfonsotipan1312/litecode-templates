@@ -53,8 +53,42 @@
       }
     },
     {
-      "id": "express-node",
+      "id": "vue-vite",
+      "name": "Vue + Vite + TypeScript",
+      "description": "SPA moderna con Vue 3, TypeScript, Composition API, Vite",
+      "path": "vue-vite",
+      "tags": ["vue", "typescript", "ts", "vite", "spa", "frontend", "composition-api"],
+      "language": "typescript",
+      "framework": "vue",
+      "bundler": "vite",
+      "port": 5173,
+      "runCmd": "npm install && npm run dev",
+      "features": ["composition-api", "script-setup", "vue-router-ready"],
+      "detect": {
+        "keywords": ["vue", "vite"],
+        "anyOf": ["vue con vite", "vue 3", "vue3", "vue con typescript"]
+      }
+    },
+    {
+      "id": "express",
       "name": "Express + Node.js",
+      "description": "REST API con Express, CORS, estructura modular lista para extender",
+      "path": "express",
+      "tags": ["express", "node", "nodejs", "api", "backend", "javascript", "rest"],
+      "language": "javascript",
+      "framework": "express",
+      "bundler": null,
+      "port": 3000,
+      "runCmd": "npm install && npm run dev",
+      "features": ["cors", "json", "modular"],
+      "detect": {
+        "keywords": ["express", "node", "api"],
+        "anyOf": ["express", "nodejs", "node.js", "api con node", "backend node"]
+      }
+    },
+    {
+      "id": "express-node",
+      "name": "Express + Node.js (MVC)",
       "description": "REST API con Express, Auth JWT, Helmet, CORS, validaciones, estructura MVC",
       "path": "express-node",
       "tags": ["express", "node", "nodejs", "api", "backend", "javascript", "rest"],
