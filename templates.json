@@ -2,6 +2,23 @@
   "version": "1.0.0",
   "templates": [
     {
+      "id": "fullstack-react-node",
+      "name": "Fullstack React + Node.js",
+      "description": "Proyecto fullstack con frontend React + Vite + TypeScript y backend Express (Node.js)",
+      "path": "fullstack-react-node",
+      "tags": ["fullstack", "react", "node", "vite", "express", "typescript", "frontend", "backend"],
+      "language": "typescript",
+      "framework": "react",
+      "bundler": "vite",
+      "port": 5173,
+      "runCmd": "npm install && npm run dev",
+      "features": ["react-vite", "express-api", "cors", "proxy"],
+      "detect": {
+        "keywords": ["fullstack", "react", "node", "backend", "frontend"],
+        "anyOf": ["fullstack react node", "react con backend", "react y node", "fullstack con react"]
+      }
+    },
+    {
       "id": "react-ts-vite",
       "name": "React + TypeScript + Vite",
       "description": "SPA moderna con React 18, TypeScript estricto, Vite, React Router v6, Auth JWT, Axios",

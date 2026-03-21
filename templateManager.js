@@ -16,6 +16,16 @@ const os     = require('os');
 
 const TEMPLATES = [
     {
+        id:       'fullstack-react-node',
+        name:     'Fullstack React + Node.js',
+        tags:     ['fullstack','react','node','vite','express','typescript','frontend','backend'],
+        port:     5173,
+        runCmd:   'npm install && npm run dev',
+        features: ['react-vite','express-api','cors','proxy'],
+        language: 'typescript',
+        framework:'react',
+    },
+    {
         id:       'react-ts-vite',
         name:     'React + TypeScript + Vite',
         tags:     ['react','typescript','ts','vite','spa','frontend','tsx'],
