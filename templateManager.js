@@ -16,6 +16,16 @@ const os     = require('os');
 
 const TEMPLATES = [
     {
+        id:       'veterinaria-fullstack',
+        name:     'Veterinaria Fullstack - React + Node + Prisma + PostgreSQL',
+        tags:     ['veterinaria','fullstack','react','node','prisma','postgresql','tailwind','docker'],
+        port:     5173,
+        runCmd:   'docker-compose up -d && npm install && npm run db:push && npm run dev',
+        features: ['prisma','postgresql','docker','tailwind','arquitectura-capas'],
+        language: 'typescript',
+        framework:'react',
+    },
+    {
         id:       'fullstack-react-node-ts-app',
         name:     'Fullstack App - Login, Dashboard, Catálogos, Consulta',
         tags:     ['fullstack','react','node','vite','login','dashboard','catalogos','consulta','typescript','jwt'],
