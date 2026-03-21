@@ -16,8 +16,18 @@ const os     = require('os');
 
 const TEMPLATES = [
     {
+        id:       'fullstack-react-node-ts',
+        name:     'Fullstack React + Node.js (100% TypeScript)',
+        tags:     ['fullstack','react','node','vite','express','typescript','frontend','backend','ts'],
+        port:     5173,
+        runCmd:   'npm install && npm run dev',
+        features: ['react-vite','express-api','cors','proxy','typescript-backend'],
+        language: 'typescript',
+        framework:'react',
+    },
+    {
         id:       'fullstack-react-node',
-        name:     'Fullstack React + Node.js',
+        name:     'Fullstack React + Node.js (JavaScript backend)',
         tags:     ['fullstack','react','node','vite','express','typescript','frontend','backend'],
         port:     5173,
         runCmd:   'npm install && npm run dev',

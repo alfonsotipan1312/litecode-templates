@@ -2,8 +2,25 @@
   "version": "1.0.0",
   "templates": [
     {
+      "id": "fullstack-react-node-ts",
+      "name": "Fullstack React + Node.js (100% TypeScript)",
+      "description": "Proyecto fullstack completamente en TypeScript: frontend React + Vite y backend Express con tsx",
+      "path": "fullstack-react-node-ts",
+      "tags": ["fullstack", "react", "node", "vite", "express", "typescript", "frontend", "backend", "ts"],
+      "language": "typescript",
+      "framework": "react",
+      "bundler": "vite",
+      "port": 5173,
+      "runCmd": "npm install && npm run dev",
+      "features": ["react-vite", "express-api", "cors", "proxy", "typescript-backend"],
+      "detect": {
+        "keywords": ["fullstack typescript", "react node typescript", "fullstack completo typescript"],
+        "anyOf": ["fullstack typescript", "react y node typescript", "todo typescript fullstack"]
+      }
+    },
+    {
       "id": "fullstack-react-node",
-      "name": "Fullstack React + Node.js",
+      "name": "Fullstack React + Node.js (JavaScript backend)",
       "description": "Proyecto fullstack con frontend React + Vite + TypeScript y backend Express (Node.js)",
       "path": "fullstack-react-node",
       "tags": ["fullstack", "react", "node", "vite", "express", "typescript", "frontend", "backend"],
