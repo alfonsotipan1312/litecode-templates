@@ -2,23 +2,6 @@
   "version": "1.0.0",
   "templates": [
     {
-      "id": "vet-app",
-      "name": "Veterinaria - Fullstack React + Node + Prisma",
-      "description": "App veterinaria completa: React + Vite + Tailwind, Node + Express + Prisma, PostgreSQL + Docker. Gestión de mascotas, clientes e historial médico",
-      "path": "vet-app",
-      "tags": ["veterinaria", "fullstack", "react", "node", "prisma", "postgresql", "docker", "tailwind"],
-      "language": "typescript",
-      "framework": "react",
-      "bundler": "vite",
-      "port": 5173,
-      "runCmd": "docker-compose up -d && npm install && cd backend && npx prisma migrate deploy && npx prisma db seed && cd .. && npm run dev",
-      "features": ["prisma", "docker", "tailwind", "layered-architecture", "mascotas", "clientes", "historial-medico"],
-      "detect": {
-        "keywords": ["veterinaria", "mascotas", "prisma", "postgresql"],
-        "anyOf": ["app veterinaria", "sistema veterinaria", "gestión mascotas"]
-      }
-    },
-    {
       "id": "fullstack-react-node-ts-app",
       "name": "Fullstack App - Login, Dashboard, Catálogos, Consulta",
       "description": "App completa con Login JWT, Dashboard, Catálogos, Consulta, Consulta General. React + Vite + Node + TypeScript",
