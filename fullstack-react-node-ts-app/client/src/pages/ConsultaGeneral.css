@@ -1,0 +1,72 @@
+.consulta-general-page h1 {
+  color: #f8fafc;
+  margin: 0 0 0.25rem;
+  font-size: 1.5rem;
+}
+
+.consulta-general-page .subtitle {
+  color: #94a3b8;
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+}
+
+.filter-form {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.filter-form input {
+  flex: 1;
+  min-width: 200px;
+  padding: 0.625rem 1rem;
+  border: 1px solid #334155;
+  border-radius: 6px;
+  background: #1e293b;
+  color: #f8fafc;
+}
+
+.filter-form button {
+  padding: 0.625rem 1rem;
+  background: #38bdf8;
+  color: #0f172a;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.filter-form button[type="button"] {
+  background: transparent;
+  color: #94a3b8;
+  border: 1px solid #334155;
+}
+
+.total {
+  color: #94a3b8;
+  margin-bottom: 0.75rem;
+  font-size: 0.9rem;
+}
+
+.consulta-general-page table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #1e293b;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.consulta-general-page th,
+.consulta-general-page td {
+  padding: 0.75rem 1rem;
+  text-align: left;
+  border-bottom: 1px solid #334155;
+}
+
+.consulta-general-page th {
+  background: #0f172a;
+  color: #94a3b8;
+  font-weight: 500;
+  font-size: 0.875rem;
+}

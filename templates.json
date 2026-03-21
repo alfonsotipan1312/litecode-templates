@@ -2,6 +2,23 @@
   "version": "1.0.0",
   "templates": [
     {
+      "id": "fullstack-react-node-ts-app",
+      "name": "Fullstack App - Login, Dashboard, Catálogos, Consulta",
+      "description": "App completa con Login JWT, Dashboard, Catálogos, Consulta, Consulta General. React + Vite + Node + TypeScript",
+      "path": "fullstack-react-node-ts-app",
+      "tags": ["fullstack", "react", "node", "vite", "login", "dashboard", "catalogos", "consulta", "typescript", "jwt"],
+      "language": "typescript",
+      "framework": "react",
+      "bundler": "vite",
+      "port": 5173,
+      "runCmd": "npm install && npm run dev",
+      "features": ["login-jwt", "dashboard", "catalogos", "consulta", "protected-routes", "react-router"],
+      "detect": {
+        "keywords": ["login", "dashboard", "catalogos", "consulta", "app completa"],
+        "anyOf": ["app con login y dashboard", "plantilla completa con login", "dashboard y catalogos"]
+      }
+    },
+    {
       "id": "fullstack-react-node-ts",
       "name": "Fullstack React + Node.js (100% TypeScript)",
       "description": "Proyecto fullstack completamente en TypeScript: frontend React + Vite y backend Express con tsx",

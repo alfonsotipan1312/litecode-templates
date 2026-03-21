@@ -16,6 +16,16 @@ const os     = require('os');
 
 const TEMPLATES = [
     {
+        id:       'fullstack-react-node-ts-app',
+        name:     'Fullstack App - Login, Dashboard, Catálogos, Consulta',
+        tags:     ['fullstack','react','node','vite','login','dashboard','catalogos','consulta','typescript','jwt'],
+        port:     5173,
+        runCmd:   'npm install && npm run dev',
+        features: ['login-jwt','dashboard','catalogos','consulta','protected-routes','react-router'],
+        language: 'typescript',
+        framework:'react',
+    },
+    {
         id:       'fullstack-react-node-ts',
         name:     'Fullstack React + Node.js (100% TypeScript)',
         tags:     ['fullstack','react','node','vite','express','typescript','frontend','backend','ts'],
